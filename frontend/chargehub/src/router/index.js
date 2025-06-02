@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Login from '../views/Login.vue';
 import Dashboard from "../views/ChargeDashboard.vue";
-import Signup from '../components/Signup.vue';
+import Signup from '../components/SignUp.vue';
 
 const routes = [
     { path: '/', redirect: '/login' },
