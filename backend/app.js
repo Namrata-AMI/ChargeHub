@@ -1,10 +1,12 @@
+require("dotenv").config();
+
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
 
 
-const dbUrl = "mongodb://localhost:27017/chargehub";
+const dbUrl = process.env.MONGO_URL;
 
 
 app.use(cors());
