@@ -111,4 +111,22 @@ button:hover {
   color: red;
   margin-top: 0.75rem;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-form-container {
+  animation: fadeIn 1s ease-out forwards;
+  opacity: 0;
+}
+
+
 </style>
