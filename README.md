@@ -39,7 +39,7 @@ POST	/api/chargers	    Create a new charger	{ name, latitude, longitude, status,
 PUT 	/api/chargers/:id	    Update charger by ID	Partial or full charger data	    Updated charger
 DELETE	   /api/chargers/:id	Delete charger by ID	None	    Success message or error
 
-AC4O46UJcjmUuds0
+
 
 
 
